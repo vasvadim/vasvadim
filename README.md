@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m a second-year student at MIPT, Moscow, with a B2 level in English and over 200 solved LeetCode problems.<br><br>🌱 I’m currently learning algorithms and data structures, data science, and economics independently, alongside various other disciplines at my university.<br><br>⚡ Fun fact: While studying in the Biotechnology track, I’m simultaneously studying biology, chemistry, programming, calculus, physics, English, and more.
+🔭 I’m a third-year student at MIPT, Moscow, with a B2 level in English and over 200 solved LeetCode problems.<br><br>🌱 I’m currently learning algorithms and data structures, data science, and economics independently, alongside various other disciplines at my university.<br><br>⚡ Fun fact: While studying in the Biotechnology track, I’m simultaneously studying biology, chemistry, programming, calculus, physics, English, and more.
 
 
 ## 🌐 Socials:
