@@ -52,7 +52,8 @@ Localisation of generative edits in photos: U-Net with an EfficientNet-B5 encode
 [Weights](https://huggingface.co/OnlyOmNoms/aiijc_2026_detective) and
 [demo service](https://huggingface.co/spaces/Kseniiashk/detective) on Hugging Face.
 
-**AI Challenge 2025 — NLP track** — hackathon, 2nd place (student track, 2025)
+**[AI Challenge 2025 — Pharmacy track (NLP)](https://huggingface.co/spaces/Kseniiashk/apteka_aiijc)** — hackathon, 2nd place (student track, 2025)
+Solution code and demo on Hugging Face Spaces.
 
 **Smaller projects:**
 - [arXiv article classifier](https://github.com/vasvadim/arxiv-article-classifier) — DistilBERT + Streamlit, YSDA course project.
