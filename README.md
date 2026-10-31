@@ -35,8 +35,9 @@
 |---|---|---|
 | [kaggriculture](https://github.com/vasvadim/kaggriculture) | Gold-medal agent for a two-player farming-economy simulation: 20.5 M-parameter entity transformer with an autoregressive market decoder, GPU-batched self-play lab, overnight re-cloning automation | PyTorch (DDP, bf16), NumPy |
 | [minecraft2real](https://huggingface.co/spaces/vasvadim/minecraft2real) | CycleGAN that turns Minecraft screenshots into real-world-looking images, served as a Hugging Face Space | PyTorch, Gradio |
-| [ysda_article_classifier](https://github.com/vasvadim/ysda_article_classifier) | BERT-based scientific-article classifier with a friendly UI (YSDA project) | Transformers, PyTorch |
-| [bioinformatics_mipt_1sem](https://github.com/vasvadim/bioinformatics_mipt_1sem) | Bioinformatics coursework: genome alignment, SNP calling, *de novo* assembly (Velvet, SPAdes, QUAST) | Python, Jupyter, bio tools |
+| [aiijc-2026-image-forgery-localization](https://github.com/vasvadim/aiijc-2026-image-forgery-localization) | AI Challenge 2026 (AIIJC), team «Амнямы»: localisation of generative edits in photos. Final model: U-Net EfficientNet-B5, a soup of 14 fine-tunes distilled from a ViT-L teacher, ≤ 100 GFLOPs → [weights](https://huggingface.co/OnlyOmNoms/aiijc_2026_detective), [demo](https://huggingface.co/spaces/Kseniiashk/detective) | PyTorch, segmentation, KD |
+| [arxiv-article-classifier](https://github.com/vasvadim/arxiv-article-classifier) | DistilBERT classifier of arXiv papers by subject area with a Streamlit UI (YSDA project) | Transformers, PyTorch, Streamlit |
+| [mipt-bioinformatics-course](https://github.com/vasvadim/mipt-bioinformatics-course) | Bioinformatics coursework: read QC, genome alignment and SNPs, *de novo* assembly, RNA-seq, differential expression | Python, R, bio tools |
 
 ## 🛠️ Tech stack
 
