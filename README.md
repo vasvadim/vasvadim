@@ -58,16 +58,4 @@
 
 **ML:** ranking & retrieval, classification, NLP, computer vision, multimodal (VLM), LLMs, embeddings, knowledge distillation, graph ML, recommender systems, imitation / reinforcement learning · **Production:** distributed inference, model deployment, data pipelines, GPU profiling, monitoring, experiment design
 
-## 📊 GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vasvadim&theme=default_repocard&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasvadim&theme=default_repocard&hide_border=true&layout=compact" height="165" alt="Top languages"/>
-</p>
-
-## 🌐 Socials
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/vas_v_ad)
-![Discord](https://img.shields.io/badge/Discord-.bandix-7289DA?logo=discord&logoColor=white)
-
 <p align="center">🇷🇺 Russian (native) · 🇬🇧 English (C1)</p>
