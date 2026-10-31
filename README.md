@@ -1,62 +1,101 @@
-<h1 align="center">Hi, I'm Vadim Vasilenko 👋</h1>
+# Vadim Vasilenko
 
-<p align="center">
-  <b>ML Engineer / Data Scientist</b> · 4th-year B.S. student at <b>MIPT</b> (Biomedical Physics & Biotechnology) · <b>Yandex School of Data Analysis</b><br/>
-  Moscow, Russia
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/vadim-vasilenko-1a81a7413/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Vadim%20Vasilenko-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:vasvadiim@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-vasvadiim%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.kaggle.com/vadimvasilenko"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-vadimvasilenko-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"></a>
-  <a href="https://huggingface.co/vasvadim"><img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-vasvadim-FFD21E?style=for-the-badge"></a>
-  <a href="https://huggingface.co/OnlyOmNoms"><img alt="OnlyOmNoms AI" src="https://img.shields.io/badge/%F0%9F%A4%97%20OnlyOmNoms%20AI-org-FFD21E?style=for-the-badge"></a>
-</p>
+Machine Learning Engineer / Data Scientist · Yandex School of Data Analysis (ML track)
+4th-year B.S. student at MIPT (Biomedical Physics & Biotechnology) · Kaggle gold medalist
 
 ---
 
-## 🧑‍💻 About me
+## About
 
-- 🏢 **Data Scientist at Yandex Search, Trust & Safety** (since 2025): transformer, VLM / BERT and CatBoost models against fake and abusive content, from architecture design to distillation, monitoring and inference at scale (8B queries scored in ~2 days).
-- 🎓 **4th-year B.S. student at MIPT**, Faculty of Biomedical Physics & Biotechnology · **Yandex School of Data Analysis**, ML track (2025–2026).
-- 🧬 Research project at the **Vavilov Institute of General Genetics (RAS)**: a graph-ML recommender of cell lines on top of the cell ontology.
-- 🔭 Interests: **ML for biology**, sequential decision making and agents, multimodal models, LLMs.
+ML engineer in Yandex Search Trust & Safety: production models against fake and generated
+content, phishing, SEO spam, abusive redirects and content farms — from custom transformer
+architectures and VLM / BERT / CatBoost modeling to distillation, inference at scale and
+monitoring. Interested in ML for biology, sequential decision making and agents.
+Russian (native), English (C1).
 
-## 🏆 Highlights
+---
 
-- 🥇 **Kaggle gold medal** — [Kaggriculture](https://www.kaggle.com/competitions/kaggriculture) (2026), agent-simulation competition by Kaggle and Google: **21st of 10,148 teams, peak #2**, solo. A transformer imitation-learning agent with a daily re-training pipeline and model soups → [`kaggriculture`](https://github.com/vasvadim/kaggriculture)
-- 🥈 **AIIJC, International AI Contest** — 2nd place, NLP track (2025); finalist, Computer Vision track (2026)
-- 🧪 **All-Russian Olympiad in Chemistry** — winner of the final stage (2023)
-- 🎖️ Abramov Scholarship for academic results · ICPC Moscow Regional 2024 · 200+ LeetCode problems
+## Experience
 
-## 🚀 Featured projects
+**Yandex — Search, Trust & Safety — Data Scientist** *(Aug 2025 — present)*
+Designed a transformer architecture from scratch for abusive-redirect detection and shipped
+it to production (−10 % LogLoss vs the previous solution). Multimodal VLM + BERT page-quality
+model over screenshots and text (+20 % F1). BERT ranking factor for fake content with
+UGC-review summarization features (−43 % fake content on acceptance measurement). CatBoost
+SEO-spam factor on 20+ traffic-graph features from billions of user transitions (−6 % LogLoss).
+Content-farm detectors retrained and deployed on Yandex and Google streams (~90 % less
+leakage). Screenshot labeling pipeline with YandexVLM (60–70 % of the stream filtered
+automatically, >50 % lower annotation cost). VLM → BERT → DSSM knowledge distillation for
+serving: 8B queries scored in ~2 days. Production integration, GPU profiling, monitoring
+(data SLA cut from 12–16 h to 8 h).
 
-| Project | What it is | Stack |
-|---|---|---|
-| [kaggriculture](https://github.com/vasvadim/kaggriculture) | Gold-medal agent for a two-player farming-economy simulation: 20.5 M-parameter entity transformer with an autoregressive market decoder, GPU-batched self-play lab, overnight re-cloning automation | PyTorch (DDP, bf16), NumPy |
-| [minecraft2real](https://huggingface.co/spaces/vasvadim/minecraft2real) | CycleGAN that turns Minecraft screenshots into real-world-looking images, served as a Hugging Face Space | PyTorch, Gradio |
-| [aiijc-2026-image-forgery-localization](https://github.com/vasvadim/aiijc-2026-image-forgery-localization) | AI Challenge 2026 (AIIJC), team «Амнямы»: localisation of generative edits in photos. Final model: U-Net EfficientNet-B5, a soup of 14 fine-tunes distilled from a ViT-L teacher, ≤ 100 GFLOPs → [weights](https://huggingface.co/OnlyOmNoms/aiijc_2026_detective), [demo](https://huggingface.co/spaces/Kseniiashk/detective) | PyTorch, segmentation, KD |
-| [arxiv-article-classifier](https://github.com/vasvadim/arxiv-article-classifier) | DistilBERT classifier of arXiv papers by subject area with a Streamlit UI (YSDA project) | Transformers, PyTorch, Streamlit |
-| [mipt-bioinformatics-course](https://github.com/vasvadim/mipt-bioinformatics-course) | Bioinformatics coursework: read QC, genome alignment and SNPs, *de novo* assembly, RNA-seq, differential expression | Python, R, bio tools |
+**Yandex — Search, Trust & Safety — ML Intern** *(Apr 2025 — Aug 2025)*
+End-to-end VLM pipeline for visual phishing detection, integrated alongside the main banning
+model (+10 % more phishing caught daily).
 
-## 🛠️ Tech stack
+**Vavilov Institute of General Genetics (RAS) — Research Project**
+Recommender of suitable cell lines on top of the cell ontology (graph ML, recommender
+systems); ML representations of biological data under academic supervision.
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-FFD21E?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-0C55A5?style=for-the-badge&logo=scipy&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+---
 
-**ML:** ranking & retrieval, classification, NLP, computer vision, multimodal (VLM), LLMs, embeddings, knowledge distillation, graph ML, recommender systems, imitation / reinforcement learning · **Production:** distributed inference, model deployment, data pipelines, GPU profiling, monitoring, experiment design
+## Selected Projects
 
-<p align="center">🇷🇺 Russian (native) · 🇬🇧 English (C1)</p>
+**[Kaggriculture agent](https://github.com/vasvadim/kaggriculture)** — Kaggle simulation competition, gold medal: 21st of 10,148 teams, peak #2, solo (2026)
+Transformer imitation-learning agent for a two-player farming economy: 20.5 M-parameter
+entity transformer with an autoregressive market decoder, daily re-training on the strongest
+opponent's newest version, GPU-batched self-play evaluation, model soups.
+
+**[AI Challenge 2026 — Digital Detective](https://github.com/vasvadim/aiijc-2026-image-forgery-localization)** — hackathon, Computer Vision track finalist, team «Амнямы» (2026)
+Localisation of generative edits in photos: U-Net with an EfficientNet-B5 encoder, a soup of
+14 fine-tunes distilled from a ViT-L teacher under a 100 GFLOPs budget.
+[Weights](https://huggingface.co/OnlyOmNoms/aiijc_2026_detective) and
+[demo service](https://huggingface.co/spaces/Kseniiashk/detective) on Hugging Face.
+
+**AI Challenge 2025 — NLP track** — hackathon, 2nd place (student track, 2025)
+
+**Smaller projects:**
+- [arXiv article classifier](https://github.com/vasvadim/arxiv-article-classifier) — DistilBERT + Streamlit, YSDA course project.
+- [Minecraft2Real](https://huggingface.co/spaces/vasvadim/minecraft2real) — CycleGAN demo on Hugging Face Spaces.
+- [FineTrack Telegram bot](https://github.com/vasvadim/finetrack-telegram-bot) — MOEX stock tracker with charts and correlations.
+- [Bioinformatics coursework](https://github.com/vasvadim/mipt-bioinformatics-course) — genome assembly, RNA-seq, differential expression.
+
+---
+
+## Education
+
+**Yandex School of Data Analysis (YSDA)** — ML track *(Sep 2025 — Jun 2026)*
+Highly selective graduate-level ML program (multi-stage entrance exams and interviews),
+completed with excellent grades. Reinforcement Learning, NLP, LLM Agents, Data Collection
+& Annotation for ML.
+
+**Moscow Institute of Physics and Technology (MIPT)** — B.S., Faculty of Biomedical Physics & Biotechnology, 4th year *(2023 — present)*
+Advanced mathematics, probability & statistics, algorithms & data structures, machine
+learning, bioinformatics.
+
+---
+
+## Stack
+
+**Languages** — Python (primary), SQL, C++, Linux, Docker, Git
+**ML** — ranking & retrieval, classification, NLP, computer vision, multimodal (VLM), LLMs,
+embeddings, knowledge distillation, graph ML, recommender systems, imitation and
+reinforcement learning
+**Frameworks** — PyTorch, Transformers, TensorFlow, CatBoost, scikit-learn, Pandas, NumPy, SciPy
+**Production** — distributed inference, model deployment, data pipelines, GPU profiling,
+monitoring, feature engineering, experiment design, statistical analysis
+
+---
+
+## Achievements
+
+- Kaggle gold medal — Kaggriculture, agent-simulation competition by Kaggle and Google (2026)
+- 2nd place, AI Challenge (AIIJC), NLP track (2025); finalist, Computer Vision track (2026)
+- Winner, All-Russian School Olympiad in Chemistry, final stage (2023)
+- Abramov Scholarship for academic results · ICPC Moscow Regional 2024 · 200+ LeetCode problems
+
+---
+
+## Contact
+
+[vasvadiim@gmail.com](mailto:vasvadiim@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vadim-vasilenko-1a81a7413/) · [Kaggle](https://www.kaggle.com/vadimvasilenko) · [Hugging Face](https://huggingface.co/vasvadim) · [OnlyOmNoms AI](https://huggingface.co/OnlyOmNoms)
